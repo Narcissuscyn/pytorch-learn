@@ -6,7 +6,7 @@ class MinistModel(nn.Module):
         super(MinistModel,self).__init__()
         self.conv1=nn.Conv2d(1,6,5)
         self.conv2=nn.Conv2d(6,16,5)
-        self.fc1=nn.Linear(16*5*5,120)
+        self.fc1=nn.Linear(16*4*4,120)
         self.fc2=nn.Linear(120,84)
         self.fc3=nn.Linear(84,10)
     def num_flat_features(self,x):#在这里就是16*5*5

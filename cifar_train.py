@@ -24,7 +24,7 @@ classes=('plane', 'car', 'bird', 'cat','deer', 'dog', 'frog', 'horse', 'ship', '
 net=CifarModel()
 net=net.to(device)
 
-optimizer=optim.SGD(net.parameters(),lr=0.001,momentum=0.9)
+optimizer=optim.SGD(net.parameters(),lr=0.0005,momentum=0.9)
 criterion=nn.CrossEntropyLoss()
 
 def test():
