@@ -1,6 +1,6 @@
 
 from model import *
-import torch.optim as optim
+
 net=MinistModel()
 print(net)
 
