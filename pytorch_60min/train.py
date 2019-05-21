@@ -35,8 +35,8 @@ weight=weight-lr*grad
 lr=0.001
 for f in net.parameters():
     print(type(f.detach()))
-    f.detach().sub_(lr*f.grad.detach())#0.3版本的pytorch，注意这里要取到data，以得到tensor数据；
-    # 在0.4版本中，则要用.detach(),这个操作是不需要进行反向求导的，因此要detach
+    f.detach().sub_(lr*f.grad.detach())#这个操作是不需要进行反向求导的.0.3版本的pytorch，注意这里要取到data，以得到tensor数据；
+    # 在0.4版本中，则要用.detach().
 '''
  1).data返回一个新的requires_grad=False的Tensor! 然而新的这个Tensor与以前那个Tensor是共享内存的. 所以不安全
     y = x.data # x需要进行autograd
