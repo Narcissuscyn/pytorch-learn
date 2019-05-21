@@ -1,12 +1,13 @@
 import torch
 #继承自orch.autograd.Function类
-class MyReLU(torch.autograd.function):
+class MyReLU(torch.autograd.Function):
     @staticmethod
-    def forward(cls,x):
-        cls.sava_for_backward(x)
+    def forward(ctx,x):
+        ctx.save_for_backward(x)#保存节点信息
         return x.clamp(min=0)
-    @classmethod
-    def backward(cls,grad_output):
+
+    @staticmethod
+    def backward(ctx,grad_output):
         """
             In the backward pass we receive the context object and a Tensor containing
             the gradient of the loss with respect to the output produced during the
@@ -14,8 +15,8 @@ class MyReLU(torch.autograd.function):
             compute and return the gradient of the loss with respect to the input to the
             forward function.
         """
-        x=cls.saved_tensors()
+        x,=ctx.saved_tensors
         grad_x=grad_output.clone()
-        grad_x[grad_x<0]=0
+        grad_x[x<0]=0#注意这里是x<0，而不是grad_output
         return grad_x
 

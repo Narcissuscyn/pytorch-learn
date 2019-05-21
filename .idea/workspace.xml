@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="190c0beb-0b19-46b1-9274-22c5ca60a737" name="Default Changelist" comment="add cifar-10 testing and evaluating code">
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytorch_60min/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytorch_example/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytorch_example/examples.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytorch_example/examples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytorch_example/my_relu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-60min/cifar_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_60min/cifar_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-60min/minist_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_60min/minist_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-60min/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_60min/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-60min/notes/autograd.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_60min/notes/autograd.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-60min/notes/basic_notation.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_60min/notes/basic_notation.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-60min/notes/pytorch_CIFAR10.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_60min/notes/pytorch_CIFAR10.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-60min/notes/pytorch_minist.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_60min/notes/pytorch_minist.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-60min/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_60min/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch_example/examples.md" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_example/examples.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch_example/examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_example/examples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch_example/my_relu.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_example/my_relu.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +16,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pytorch_learn$cifar_train.coverage" NAME="cifar_train Coverage Results" MODIFIED="1558249015276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pytorch_learn$minist_train.coverage" NAME="minist_train Coverage Results" MODIFIED="1558250247295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pytorch_learn$examples.coverage" NAME="examples Coverage Results" MODIFIED="1558408531064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch-example" />
+    <SUITE FILE_PATH="coverage/pytorch_learn$examples.coverage" NAME="examples Coverage Results" MODIFIED="1558409140281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch-example" />
+    <SUITE FILE_PATH="coverage/pytorch_learn$examples__1_.coverage" NAME="examples (1) Coverage Results" MODIFIED="1558409749541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch_example" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -60,12 +49,12 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="342">
-                <caret line="18" column="89" selection-start-line="18" selection-start-column="89" selection-end-line="18" selection-end-column="89" />
+                <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
               </first_editor>
               <second_editor />
             </state>
@@ -75,11 +64,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pytorch_example/examples.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/remote_sources/-1049475837/-488204777/torch/tensor.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
             </state>
           </provider>
         </entry>
@@ -88,8 +83,20 @@
         <entry file="file://$PROJECT_DIR$/pytorch_example/examples.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="401">
-                <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
+              <first_editor relative-caret-position="324">
+                <caret line="123" column="28" lean-forward="true" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pytorch_example/static_dynamic_graph.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="299">
+                <caret line="145" column="26" lean-forward="true" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
               </first_editor>
               <second_editor />
             </state>
@@ -99,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pytorch_example/my_relu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="285">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -149,6 +156,10 @@
         <option value="$PROJECT_DIR$/pytorch_60min/minist_train.py" />
         <option value="$PROJECT_DIR$/pytorch_60min/cifar_train.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pytorch_example/examples.py" />
+        <option value="$PROJECT_DIR$/pytorch_example/my_relu.py" />
+        <option value="$PROJECT_DIR$/pytorch_example/examples.md" />
+        <option value="$PROJECT_DIR$/pytorch_example/static_graph.md" />
       </list>
     </option>
   </component>
@@ -172,17 +183,6 @@
             <path>
               <item name="pytorch-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytorch-learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytorch-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytorch-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="pytorch_60min" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytorch-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytorch-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="pytorch_60min" type="462c0819:PsiDirectoryNode" />
-              <item name="notes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pytorch-learn" type="b2602c69:ProjectViewProjectNode" />
@@ -228,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.examples">
+  <component name="RunManager" selected="Python.examples (1)">
     <configuration name="cifar_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pytorch-learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,6 +243,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytorch-60min/cifar_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="examples (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pytorch-learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytorch_example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytorch_example/examples.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,6 +319,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.examples (1)" />
         <item itemvalue="Python.examples" />
         <item itemvalue="Python.minist_train" />
         <item itemvalue="Python.cifar_train" />
@@ -314,7 +337,7 @@
       <option name="presentableId" value="Default" />
       <updated>1558232085285</updated>
       <workItem from="1558232086483" duration="10632000" />
-      <workItem from="1558404434609" duration="4227000" />
+      <workItem from="1558404434609" duration="6357000" />
     </task>
     <task id="LOCAL-00001" summary="add cifar-10 testing and evaluating code">
       <created>1558236224671</created>
@@ -327,7 +350,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14859000" />
+    <option name="totallyTimeSpent" value="16989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-33" width="1920" height="1057" extended-state="0" />
@@ -425,38 +448,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytorch_example/examples.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="401">
-            <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pytorch_example/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytorch_example/my_relu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytorch_example/examples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pytorch_60min/minist_train.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -478,6 +474,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="342">
+            <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pytorch_60min/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -485,11 +491,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/remote_sources/-1049475837/-488204777/torch/autograd/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/remote_sources/-1049475837/-488204777/torch/tensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch_example/examples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/remote_sources/-1049475837/-488204777/torch/autograd/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch_example/examples.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="342">
-            <caret line="18" column="89" selection-start-line="18" selection-start-column="89" selection-end-line="18" selection-end-column="89" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="324">
+            <caret line="123" column="28" lean-forward="true" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch_example/my_relu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch_example/static_dynamic_graph.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="299">
+            <caret line="145" column="26" lean-forward="true" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
           </first_editor>
           <second_editor />
         </state>

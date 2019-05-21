@@ -16,7 +16,7 @@ w2=torch.randn(H,D_out,device=device,requires_grad=True)
 lr=1e-6
 
 for epoch in range(10):
-    pred = x.mm(w1).clamp(min=0).mm(w2)#clamp起到了relu激活函数的作用
+    pred = MyReLU.apply(x.mm(w1)).mm(w2)#clamp起到了relu激活函数的作用
     loss=(y-pred).pow(2).sum()
     print(epoch,'-',loss)#拿到python数据
 
